@@ -29,7 +29,7 @@ namespace Gamekit3D
             }
 
             gameObject.SetActive (true);
-            animator.SetBool (m_HashActivePara, true);
+            animator.SetBool(m_HashActivePara, true); ;
             textMeshProUGUI.text = text;
         }
 
